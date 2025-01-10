@@ -1,0 +1,16 @@
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.exe
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.dll
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
