@@ -85,7 +85,7 @@ namespace WinFormsApp1
 
                     if (dCash < dGrandTotal)
                     {
-                        MessageBox.Show("�Թʴ�����§��", "��ͼԴ��Ҵ", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("เงินสดไม่เพียงพอ", "ข้อผิดพลาด", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         return;
                     }
 
@@ -98,7 +98,8 @@ namespace WinFormsApp1
                 }
                 catch (FormatException)
                 {
-                    MessageBox.Show("Please fill in the numbers correctly", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Please fill in the numbers correctly", "Eoror", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
                 }
             }
         }
