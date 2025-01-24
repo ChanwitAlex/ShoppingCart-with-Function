@@ -2,9 +2,42 @@ namespace WinFormsApp1
 {
     public partial class Form1 : Form
     {
+        Item itemCoffee = new Item();
+        Item itemGreentea = new Item();
+        Item itemNoodle = new Item();
+        Item itemPizza = new Item();
         public Form1()
         {
             InitializeComponent();
+
+            itemCoffee.Name = "Coffee";
+            itemCoffee.Price = 75;
+            itemCoffee.Quantity = 0;
+
+            itemGreentea.Name = "Greentea";
+            itemGreentea.Price = 55;
+            itemGreentea.Quantity = 0;
+
+            itemNoodle.Name = "Noodle";
+            itemNoodle.Price = 50;
+            itemNoodle.Quantity = 0;
+
+            itemPizza.Name = "Pizza";
+            itemPizza.Price = 159;
+            itemPizza.Quantity = 0;
+
+
+            tbCoffeePrice.Text = itemCoffee.Price.ToString();
+            tbCoffeeQuantity.Text = itemGreentea.Quantity.ToString();
+
+            tbGreenTeaPrice.Text = itemGreentea.Price.ToString();
+            tbGreenTeaQuantity.Text = itemGreentea.Quantity.ToString();
+
+            tbNoodlePrice.Text = itemNoodle.Price.ToString();
+            tbNoodleQuantity.Text = itemNoodle.Quantity.ToString();
+
+            tbPizzaPrice.Text = itemPizza.Price.ToString();
+            tbPizzaQuantity.Text = itemPizza.Quantity.ToString();
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
@@ -24,20 +57,24 @@ namespace WinFormsApp1
 
                     if (chbCoffee.Checked)
                     {
-                        dBeverageTotal += GetItemTotal(tbCoffeePrice.Text, tbCoffeeQuantity.Text);
+                        itemCoffee.Quantity = int.Parse(tbCoffeeQuantity.Text);
+                        dBeverageTotal += itemCoffee.GetTotalPrice();
                     }
                     if (chbGreenTea.Checked)
                     {
-                        dBeverageTotal += GetItemTotal(tbGreenTeaPrice.Text, tbGreenTeaQuantity.Text);
+                        itemGreentea.Quantity = int.Parse(tbGreenTeaQuantity.Text);
+                        dBeverageTotal += itemGreentea.GetTotalPrice();
                     }
 
                     if (chbNoodle.Checked)
                     {
-                        dFoodTotal += GetItemTotal(tbNoodlePrice.Text, tbNoodleQuantity.Text);
+                        itemNoodle.Quantity = int.Parse(tbNoodleQuantity.Text);
+                        dFoodTotal += itemNoodle.GetTotalPrice();
                     }
                     if (chbPizza.Checked)
                     {
-                        dFoodTotal += GetItemTotal(tbPizzaPrice.Text, tbPizzaQuantity.Text);
+                        itemPizza.Quantity = int.Parse(tbPizzaQuantity.Text);
+                        dFoodTotal += itemPizza.GetTotalPrice();
                     }
 
                     double dGrandTotal = dBeverageTotal + dFoodTotal;
@@ -61,26 +98,12 @@ namespace WinFormsApp1
                 }
                 catch (FormatException)
                 {
-                    MessageBox.Show("กรุณากรอกข้อมูลตัวเลขให้ถูกต้อง", "ข้อผิดพลาด", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Please fill in the numbers correctly", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
 
-        private double GetItemTotal(string priceText, string quantityText)
-        {
-            double price = 0, quantity = 0;
-            try
-            {
-                price = double.Parse(priceText);
-                quantity = double.Parse(quantityText);
-            }
-            catch (Exception)
-            {
-                price = 0;
-                quantity = 0;
-            }
-            return price * quantity;
-        }
+
         private double CalculateTotalDiscount(double dBeverageTotal, double dFoodTotal, double dGrandTotal)
         {
             double dDiscountBev = chbBeverage.Checked ? double.Parse(tbBeverageDiscount.Text) : 0;

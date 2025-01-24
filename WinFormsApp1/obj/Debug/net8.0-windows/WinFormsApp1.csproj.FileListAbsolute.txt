@@ -14,3 +14,4 @@ D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Deb
 D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
 D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
 D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
+D:\Users\Lenovo\Documents\GitHub\ShoppingCart with Function\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.sourcelink.json

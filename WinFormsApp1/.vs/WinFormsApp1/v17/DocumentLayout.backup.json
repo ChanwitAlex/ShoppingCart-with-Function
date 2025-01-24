@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C78979AA-81E4-4984-909A-CD5E4B073509}|WinFormsApp1.csproj|d:\\users\\lenovo\\documents\\github\\shoppingcart with function\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C78979AA-81E4-4984-909A-CD5E4B073509}|WinFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C78979AA-81E4-4984-909A-CD5E4B073509}|WinFormsApp1.csproj|d:\\users\\lenovo\\documents\\github\\shoppingcart with function\\winformsapp1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C78979AA-81E4-4984-909A-CD5E4B073509}|WinFormsApp1.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Users\\Lenovo\\Documents\\GitHub\\ShoppingCart with Function\\WinFormsApp1\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "D:\\Users\\Lenovo\\Documents\\GitHub\\ShoppingCart with Function\\WinFormsApp1\\Class1.cs*",
+              "RelativeToolTip": "Class1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T18:17:41.81Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Users\\Lenovo\\Documents\\GitHub\\ShoppingCart with Function\\WinFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Users\\Lenovo\\Documents\\GitHub\\ShoppingCart with Function\\WinFormsApp1\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAkwBEAAAATAAAAAAAAAA==",
+              "ToolTip": "D:\\Users\\Lenovo\\Documents\\GitHub\\ShoppingCart with Function\\WinFormsApp1\\Form1.cs*",
+              "RelativeToolTip": "Form1.cs*",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAkwHMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T19:12:38.243Z",
               "EditorCaption": ""
@@ -39,8 +56,8 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Users\\Lenovo\\Documents\\GitHub\\ShoppingCart with Function\\WinFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Users\\Lenovo\\Documents\\GitHub\\ShoppingCart with Function\\WinFormsApp1\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "ToolTip": "D:\\Users\\Lenovo\\Documents\\GitHub\\ShoppingCart with Function\\WinFormsApp1\\Form1.cs [Design]*",
+              "RelativeToolTip": "Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T18:52:28.318Z",
               "EditorCaption": " [Design]"
